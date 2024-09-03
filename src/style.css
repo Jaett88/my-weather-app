@@ -50,6 +50,7 @@ main {
   font-size: 38px;
   font-weight: 900;
   line-height: 48px;
+  margin: 0;
 }
 
 .current-details {
@@ -73,14 +74,14 @@ main {
 }
 
 .current-temperature-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .current-temperature-value {
-  font-size: 80px;
+  font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
-  margin-left: 10px;
 }
 
 .current-temperature-unit {
